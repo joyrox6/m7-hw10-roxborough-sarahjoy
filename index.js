@@ -6,7 +6,11 @@ var textarea = document.querySelector('textarea')
 
 // Retrieve name and note content from cookies and localstorage
 // Then apply them to elements on the page
-// YOUR CODE HERE
+localStorage.getItem('span')
+localStorage.getItem('form')
+localStorage.getItem('#clear')
+localStorage.getItem('textarea')
+
 
 formEl.onsubmit = function(e) {
   // prevents form submission
